@@ -1,0 +1,1 @@
+<view class="loading-dots"><view wx:for="{{a}}" wx:for-item="dot" wx:key="a" class="{{['dot', dot.b]}}"></view></view>

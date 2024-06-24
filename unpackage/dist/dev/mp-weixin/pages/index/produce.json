@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "模拟",
+  "usingComponents": {
+    "produce-item": "../../components/produce-item/produce-item"
+  }
+}

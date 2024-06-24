@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "loading-dots": "../loading-dots/loading-dots"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/dialog",
+    "pages/user/dailyTask",
+    "pages/index/my",
+    "pages/user/vipBuy",
+    "pages/user/drawTask",
+    "pages/user/wx-login",
+    "pages/index/produce",
+    "pages/user/customerSupport",
+    "pages/index/draw",
+    "pages/user/drawTaskItem",
+    "pages/user/roleDialog",
+    "pages/user/rechargeRecord",
+    "pages/user/setting"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "im-chat",
+    "navigationBarBackgroundColor": "#4fbbbf",
+    "backgroundColor": "#4fbbbf"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/dialog",
+        "iconPath": "static/img/dialog_icon_no_select.png",
+        "selectedIconPath": "static/img/dialog_icon_select.png",
+        "text": "对话"
+      },
+      {
+        "pagePath": "pages/index/produce",
+        "iconPath": "static/img/product_no_select1.png",
+        "selectedIconPath": "static/img/product_select.png",
+        "text": "模拟"
+      },
+      {
+        "pagePath": "pages/index/draw",
+        "iconPath": "static/img/draw-0.png",
+        "selectedIconPath": "static/img/draw-1.png",
+        "text": "绘画"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "iconPath": "static/img/my_no_select.png",
+        "selectedIconPath": "static/img/my_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.writePhotosAlbum": {
+      "desc": "保存图片到相册"
+    }
+  },
+  "usingComponents": {}
+}

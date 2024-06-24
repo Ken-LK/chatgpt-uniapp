@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "对话",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "chat-input": "../../components/chatinput",
+    "message-show": "../../components/messageshow",
+    "uni-nav-bar": "../../uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "my-js-select": "../../components/my-js-select/my-js-select",
+    "uni-notice-bar": "../../uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar"
+  }
+}

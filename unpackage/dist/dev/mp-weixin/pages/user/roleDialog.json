@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "chat-input": "../../components/chatinput-role",
+    "message-show": "../../components/messageshow-role",
+    "uni-notice-bar": "../../uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "AI绘画",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "draw-style-item": "../../components/draw-style-item/draw-style-item",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "draw-style-big-item": "../../components/draw-style-bigItem/draw-style-bigItem",
+    "my-progress": "../../components/my-progress/my-progress",
+    "uni-popup-message": "../../uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

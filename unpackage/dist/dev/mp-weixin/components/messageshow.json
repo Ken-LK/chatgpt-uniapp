@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ua-markdown": "./ua-markdown/ua-markdown",
+    "uni-icons": "../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "wave-animation-up": "./wave-animation-up/wave-animation-up",
+    "loading-dots": "./loading-dots/loading-dots"
+  }
+}

@@ -1,0 +1,147 @@
+
+.guide {
+		background-color: white;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 10px;
+		border-radius: 5px;
+}
+.guide_title {
+		font-size: 16px;
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+.guide_text {
+		font-size: 14px;
+		color: #575659;
+		margin-bottom: 10px;
+}
+.guide_select {
+		margin-top: 4px;
+		display: flex;
+		padding: 10px;
+		background-color: #f5f6f8;
+}
+.guide_select text {
+		width: 100%;
+		font-size: 14px;
+		font-weight: 600;
+}
+
+	/* 点击效果 */
+.clickEacct {
+		transition: background-color 0.3s ease;
+		/* 过渡效果 */
+}
+.clickEacct:active {
+		background-color: #ddd;
+		/* 点击时的背景色 */
+}
+.m-item {
+		display: flex;
+		flex-direction: row;
+		/* padding-top: 20px; */
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+.m-item_flag {}
+.m-left {
+		display: flex;
+		width: 60px;
+		justify-content: center;
+		align-items: flex-start;
+}
+.m-content {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		justify-content: center;
+		word-break: break-all;
+}
+.m-right {
+		display: flex;
+		width: 60px;
+		justify-content: center;
+		align-items: flex-start;
+}
+.copy-parent {
+		display: flex;
+		width: 100%;
+		/* align-items: center; */
+		justify-content: flex-start;
+		height: 100%;
+}
+.copy-parent .copy-child {
+		font-size: 12px;
+		padding: 10px;
+		color: #383b9a;
+}
+.head_icon {
+		width: 40px;
+		height: 40px;
+		border-radius: 7px;
+}
+.m-content-head {
+		position: relative;
+}
+.m-content-head-right {
+		display: flex;
+		justify-content: flex-end;
+		-webkit-user-select: none;
+		        user-select: none;
+}
+.m-content-head-home {
+		font-size: 14px;
+		text-align: left;
+		/* background: #1482d1; */
+		background: white;
+		border: 0.5px white solid;
+		border-radius: 10px;
+		padding: 10px;
+		color: black;
+		white-space: pre-line;
+		white-space: pre-wrap;
+		/* -webkit-user-select: text; */
+		user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+}
+.m-content-head-home:before {
+		border: 7px solid transparent;
+		border-right: 7px solid white;
+		left: -13px;
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: ' '
+}
+.m-content-head-customer {
+		border: 0.5px #a7dddf solid;
+		/* border: 0.5px white solid; */
+		background-color: #a7dddf;
+		/* background-color: white; */
+		border-radius: 10px;
+		padding: 10px;
+		white-space: pre-line;
+		white-space: pre-wrap;
+		/* -webkit-user-select: text; */
+		color: #000000;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		/* color: black; */
+}
+.m-content-head-customer:after {
+		border: 7px solid transparent;
+		border-left: 7px solid #a7dddf;
+		/* border-left: 7px solid white; */
+		top: 10px;
+		right: -13px;
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: ' '
+}

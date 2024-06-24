@@ -1,0 +1,8 @@
+
+.qq {
+		margin-left: 20px;
+		font-size: 18px;
+}
+.qqNum {
+		font-size: 20px;
+}

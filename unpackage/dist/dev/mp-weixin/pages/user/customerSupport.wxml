@@ -1,0 +1,1 @@
+<view style="margin-top:50px"><view bindlongpress="{{b}}"><text class="qq">QQ(长按复制)：</text><text class="qqNum">{{a}}</text></view><view/><view style="margin-top:20px"><text class="qq">微信(点击图片后长按识别)：</text><image bindtap="{{c}}" style="width:100%;margin-top:10px" mode="aspectFit" src="{{d}}"></image></view></view>

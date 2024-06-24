@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "任务中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "show-vip-info": "../../components/showVipInfo/showVipInfo",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

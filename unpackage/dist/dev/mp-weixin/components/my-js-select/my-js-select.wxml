@@ -1,0 +1,1 @@
+<view><view wx:if="{{a}}" class="arrivalNavigation"><view class="d4"></view><view class="sideNavigation"><view><view wx:for="{{b}}" wx:for-item="item" wx:key="c" class="li" index="{{item.b}}" bindtap="{{item.d}}">{{item.a}} <view class="liBottomBorder"></view></view></view></view></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "仅展示最近7天记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "draw-record-item": "../../components/draw-record-item/draw-record-item",
+    "uni-segmented-control": "../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-popup-message": "../../uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

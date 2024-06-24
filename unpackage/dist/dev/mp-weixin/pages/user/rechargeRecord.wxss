@@ -1,0 +1,39 @@
+
+.container {
+		padding: 20px;
+}
+.header {
+		margin-bottom: 20px;
+}
+.title {
+		font-size: 24px;
+		font-weight: bold;
+}
+.table {
+		width: 100%;
+}
+.row {
+		display: flex;
+		border-bottom: 1px solid #ddd;
+		font-size: 14px;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+}
+.header-row {
+		background-color: #f2f2f2;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+}
+.cell {
+		flex: 1;
+		padding: 8px;
+}
+.loading-row,
+	.no-more-data-row {
+		margin-top: 20px;
+		justify-content: center;
+		text-align: center;
+		color: #999;
+}

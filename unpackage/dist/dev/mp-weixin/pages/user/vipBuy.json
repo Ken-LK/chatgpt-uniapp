@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "充值",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "show-vip-info": "../../components/showVipInfo/showVipInfo"
+  }
+}
